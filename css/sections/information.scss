@@ -1,0 +1,25 @@
+.main__bottom {
+	padding: 27px 0;
+}
+
+.section {
+	display: flex;
+}
+
+.information {
+	width: 46%;
+}
+
+.information__title,
+.projects__title {
+	font-family: 'helvetica_ceregular';
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
+.information__text {
+	font-family: 'helvetica_ceregular';
+	font-size: 13px;
+	color: $gray-color;
+	line-height: 22px;
+}

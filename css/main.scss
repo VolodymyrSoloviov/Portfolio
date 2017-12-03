@@ -1,0 +1,25 @@
+//layout vars
+$container-width: 960px;
+$footer-height: 50px;
+
+//colors
+$black-color: #000;
+$white-color: #fff;
+$gray-color: #585555;
+//layout
+@import "layout/normalize";
+@import "layout/adjustment";
+@import "layout/fonts";
+
+//sections
+@import "sections/footer";
+@import "sections/header";
+@import "sections/page";
+@import "sections/aside";
+@import "sections/information";
+
+// media
+@import "media/desktop";
+@import "media/laptop";
+@import "media/tablets";
+@import "media/phones";
