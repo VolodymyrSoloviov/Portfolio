@@ -39,6 +39,11 @@
 	text-transform: uppercase;
 	font-size: 19px;
 	color: $white-color;
+	transition: .3s;
+
+	&:hover {
+		color: $red-color;
+	}
 }
 
 .header__bottom {
@@ -59,9 +64,6 @@
 }
 
 .logo {
-	padding-left: 25px;
-    padding-top: 25px;
-	color: $white-color;
 	font-size: 57px;
 	font-family: "Lobster1.4";
 	position: absolute;
@@ -71,6 +73,17 @@
 	height: 116px;
 	background-color: #da2020;
 	z-index: 1;
+}
+
+.logo__link {
+	display: block;
+	text-decoration: none;
+	color: $white-color;
+}
+
+.logo__text {
+	padding-left: 25px;
+    padding-top: 25px;
 }
 
 .socials {
@@ -86,6 +99,10 @@
 
 .socials__item {
 	margin-left: 10px;
+
+	&:first-child {
+		margin-left: 0;
+	}
 }
 
 .socials__link {
@@ -95,6 +112,11 @@
 	border-radius: 50%;
 	background: center center no-repeat #b01111;
 	border: 3px solid #fff;
+	transition: .3s;
+
+	&:hover {
+		background-color: #1311b0;
+	}
 }
 
 .socials__link_facebook {

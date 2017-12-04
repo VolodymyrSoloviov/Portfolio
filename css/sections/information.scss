@@ -38,6 +38,11 @@
 .projects__item {
 	width: 148px;
 	margin-bottom: 27px;
+
+	&:hover .projects__name {
+		color: $red-color;
+		font-weight: bold;
+	}
 }
 
 .projects__link {
@@ -66,4 +71,5 @@
 	font-size: 14px;
 	color: #5b5b5b;
 	margin-top: 10px;
+	transition: .3s;
 }

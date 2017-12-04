@@ -1,3 +1,21 @@
 @media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
 
+	.header__title {
+		font-size: 18px;
+	}
+
+	.navigation__item {
+		padding: 0 25px;
+	}
+
+	.navigation__link {
+		font-size: 16px;
+	}
+
+	.projects__item {
+    	width: 168px;
+	}
 }
