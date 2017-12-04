@@ -1,0 +1,17 @@
+.footer {
+	border-top: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.designed {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+
+.designed__text {
+	font-family: 'helvetica_ceregular';
+	margin: auto 0;
+	color: $gray-color;
+	font-size: 13px;
+}
