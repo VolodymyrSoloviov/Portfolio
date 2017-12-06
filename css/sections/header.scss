@@ -23,7 +23,8 @@
 	font-family: 'helvetica_neueregular';
 	margin: auto 0;
 	background: url("../img/bg/line.png") right center no-repeat;
-	padding: 0 29px;
+	padding-left: 29px;
+	padding-right: 31px;
 
 	&:last-child {
 		background: none;

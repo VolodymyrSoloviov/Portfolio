@@ -2,4 +2,52 @@
 	.container {
 		width: 480px;
 	}
+
+	.navigation {
+    	padding-left: 115px;
+	}
+
+	.navigation__item {
+    padding-left: 5px;
+	padding-right: 7px;
+	}
+	
+	.header__title {
+		padding-left: 115px;
+		margin: 7px 0;
+	}
+
+	.socials {
+		top: 3px;
+	}
+
+	.socials__link {
+		width: 30px;
+		height: 30px;
+	}
+
+	.navigation__link {
+    font-size: 15px;
+	}
+
+	.section {
+		flex-direction: column;
+	}
+
+	.information {
+    	width: 100%;
+    	margin-bottom: 15px;
+	}
+
+	.information__title, .projects__title {
+		text-align: center;
+	}
+
+	.projects {
+    	width: 100%;
+	}
+
+	.projects__item {
+    	width: 45%;
+	}
 }

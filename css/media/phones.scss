@@ -2,4 +2,70 @@
 	.container {
 		width: 95%;
 	}
+
+	.logo {
+		width: 70px;
+		height: 100px;
+	}
+
+	.logo__text {
+		padding: 10px 5px;
+	}
+
+	.navigation {
+    	padding-left: 75px;
+	}
+
+	.header__title {
+		padding-left: 75px;
+		margin: 10px 0;
+		font-size: 16px;
+	}
+
+	.navigation__item {
+		background: none;
+	}
+
+	.navigation__link {
+    	font-size: 12px;
+	}
+
+	.socials {
+		display: none;
+	}
+
+	.main {
+		margin-top: 250px;
+	}
+
+	.author__photo {
+		bottom: 5px;
+    	height: 140px;
+    	width: 130px;
+	}
+
+	.author__information {
+		margin-left: 140px;
+    	padding: 9px 0;
+	}
+
+	.author__name {
+		font-size: 18px;
+	}
+
+	.author__occupation {
+		font-size: 14px;
+	}
+
+	.projects__list {
+		justify-content: center;
+	}
+
+	.projects__item {
+		width: 70%;
+	}
+
+	.projects__pic {
+		height: 150px;
+	}
 }
